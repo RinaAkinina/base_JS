@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@600&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styleJS.css">
+</head>
+
+<body>
+    <section class="top center">
+        <header class="header">
+        </header>
+        <section class="top_content">
+            <h1 class="top_heading"> Добро пожаловать <br> на мой сайт !</h1>
+            <p class="top_text">Вам предстоит пройти несколько увлекательных игр. <br> Если готов нажимай&nbsp;<span
+                    style="font-weight: bold">поехали</span>&nbsp; и&nbsp;<span style="font-weight: bold"> приступай!
+                </span></p>
+            <a href="#game"> <button class="top_redbutton"> Поехали!</button></a>
+        </section>
+    </section>
+    <section class="for center" id="game">
+        <div class="for_box ">
+            <a href="#gameOne">
+                <div class="for_item for_item_1"> Игра 1</div>
+            </a>
+            <a href="#gameTwo">
+                <div class="for_item for_item_2">Игра 2</div>
+            </a>
+            <a href="#gameThree">
+                <div class="for_item for_item_3">Игра 3</div>
+            </a>
+        </div>
+    </section>
+    <section class="top_content top_seasons center">
+
+        <div class="top_seasons_text" id="gameOne">
+            <h1 class="top_headingSeasons"> Времена года! </h1>
+            <p class="top_text play_one">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+                какому
+                времени года
+                он относится</p>
+            <button onclick="playOneSeasons();" class="top_redbutton"> Играть!</button>
+        </div>
+        <div class="top_seasons_img">
+            <img class="top_seasons_playOne" src="img/play1.png" alt="Времена года">
+        </div>
+
+    </section>
+    <section class="top_content top_seasons top_playMemory center" id="gameTwo">
+        <div class="top_seasons_img">
+            <img class="top_seasons_playOne" src="Img/play2.png" alt="Запомни слова">
+        </div>
+        <div class="top_seasons_text">
+            <h1 class="top_headingSeasons"> Запомни слова </h1>
+            <p class="top_text play_one">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
+                запомнить.</p>
+            <button onclick="playTwoRememberWord();" class="top_redbutton"> Играть!</button>
+        </div>
+    </section>
+    <section class="top_backGroundplay3 top_namePlay3" id="gameThree">
+        <div class="textStylePlay3">
+            <h1 class="top_headingSeasons play_three"> Игра в загадки </h1>
+            <p class="top_text play_three text_Style_Play3">Компьютер загадывает загадку, вам необходимо ее угадать,
+                если вы дадите не
+                правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+            <button onclick="playThreePuzzle();" class="top_redbutton"> Играть!</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <h2 class="footer_text"> Все права защищены </h2>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

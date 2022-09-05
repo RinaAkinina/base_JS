@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  height: 217px;
+}
+
+.top {
+  height: 1024px;
+  background-image: url(img/TopBackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  padding-top: 32px;
+}
+
+.top_heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+.top_redbutton {
+  background: #9c0332;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  width: 234px;
+  height: 48.6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 44px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.top_redbutton:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.top_seasons {
+  padding-top: 233px;
+  padding-bottom: 233px;
+  background: #000915;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10%;
+}
+
+.top_seasons_text {
+  grid-column: span 6;
+}
+
+.top_seasons_img {
+  grid-column: span 5;
+}
+
+.top_headingSeasons {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.top_backGroundplay3 {
+  min-height: 800px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000915), color-stop(15%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, left top, left bottom, color-stop(85%, rgba(0, 0, 0, 0)), to(#000915)), url(Img/play3.jpg);
+  background-image: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 15%), linear-gradient(180deg, rgba(0, 0, 0, 0) 85%, #000915 100%), url(Img/play3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.textStylePlay3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 276px;
+}
+
+.play_one {
+  max-width: 584px;
+}
+
+.play_three {
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+}
+
+.for {
+  padding-top: 128px;
+  background: #000915;
+}
+
+.for_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.for_item {
+  height: 300px;
+  width: 379px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 32px;
+  padding-bottom: 32px;
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 1, 15, 0)), to(#001944)), url(0231.jpg);
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
+  border-radius: 18px;
+  margin-bottom: 128px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.for_item_1 {
+  background-image: url(img/Game1.jpg);
+}
+
+.for_item_2 {
+  background-image: url(img/Game2.jpg);
+}
+
+.for_item_3 {
+  background-image: url(img/Game3.jpg);
+}
+
+.for_item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.footer {
+  background: #000915;
+}
+
+.footer_text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top_heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  .top_text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    word-break: break-word;
+    max-width: 343px;
+  }
+  .top_headingSeasons {
+    font-size: 32px;
+    line-height: 39px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .top_redbutton {
+    text-align: center;
+  }
+  .top_seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    gap: 64px;
+  }
+  .top_seasons_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .top_seasons_playOne {
+    display: block;
+    max-width: 344px;
+    max-height: 236px;
+    grid-column: span 4;
+  }
+  .top_seasons_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .top_playMemory {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .play_three {
+    padding-left: 53px;
+    padding-right: 56px;
+    text-align: center;
+  }
+  .text_Style_Play3 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .for_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 16px;
+  }
+  .for_item {
+    height: 300px;
+    max-width: 343px;
+    margin-bottom: 16px;
+  }
+  .for_item:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+/*# sourceMappingURL=styleJS.css.map */

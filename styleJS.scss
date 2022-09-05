@@ -1,0 +1,166 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    height: 217px;
+}
+.top {
+    height: 1024px;
+    background-image: url(img/TopBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &_text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #ffffff;
+        padding-top: 32px;
+    }
+    &_heading {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #ffffff;
+    }
+    &_redbutton {
+        background: #9c0332;
+        box-sizing: border-box;
+        border-radius: 30px;
+        width: 234px;
+        height: 48.6px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff;
+        margin-top: 44px;
+        transition: all 0.3s;
+    }
+    &_redbutton:hover {
+        transform: scale(0.95);
+    }
+    &_seasons {
+        padding-top: 233px;
+        padding-bottom: 233px;
+        background: #000915;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 10%;
+        &_text {
+            grid-column: span 6;
+        }
+        &_img {
+            grid-column: span 5;
+        }
+    }
+    &_headingSeasons {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #ffffff;
+    }
+    &_backGroundplay3{
+        min-height: 800px;
+        width: 100%;
+        background-image: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 15%), linear-gradient(180deg, rgba(0, 0, 0, 0) 85%, #000915 100%), url(Img/play3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+.textStylePlay3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 276px ;
+    
+}
+.play_one {
+    max-width: 584px;
+}
+.play_three{
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align:center;
+}
+.for {
+    padding-top: 128px;
+    background: #000915;
+    &_box {
+        display: flex;
+        gap: 32px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    &_item {
+        height: 300px;
+        width: 379px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-end;
+        padding-left: 32px;
+        padding-bottom: 32px;
+        color: #ffffff;
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
+        border-radius: 18px;
+        margin-bottom: 128px;
+        transition: all 0.3s;
+        &_1 {
+            background-image: url(img/Game1.jpg);
+        }
+        &_2 {
+            background-image: url(img/Game2.jpg);
+        }
+        &_3 {
+            background-image: url(img/Game3.jpg);
+        }
+    }
+    &_item:hover {
+        transform: scale(1.05);
+    }
+}
+.footer{
+    background: #000915;
+    &_text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+@import "mobileJS";

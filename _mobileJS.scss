@@ -1,0 +1,87 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top {
+        &_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &_heading {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+        }
+        &_text {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            color: #ffffff;
+            word-break: break-word;
+            max-width: 343px;
+        }
+        &_headingSeasons {
+            font-size: 32px;
+            line-height: 39px;
+            align-items: center;
+            text-align: center;
+        }
+        &_redbutton {
+            text-align: center;
+        }
+        &_seasons {
+            padding-top: 51px;
+            padding-bottom: 85px;
+            gap: 64px;
+            &_img {
+                display: flex;
+                justify-content: center;
+            }
+            &_playOne {
+                display: block;
+                max-width: 344px;
+                max-height: 236px;
+                grid-column: span 4;
+            }
+            &_text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &_playMemory {
+            flex-direction: column-reverse;
+        }
+    }
+    .play_three{
+        padding-left: 53px;
+        padding-right: 56px;
+        text-align:center;
+    }
+    .text_Style_Play3{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .for {
+        &_box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+        &_item {
+            height: 300px;
+            max-width: 343px;
+            margin-bottom: 16px;
+        }
+        &_item:hover {
+            transform: scale(1.05);
+        }
+    }
+}
